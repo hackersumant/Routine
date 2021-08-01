@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #212529;
+  font-family: poppins;
+}
+
+table {
+  background: #212529;
+  margin-top: 650px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  border-collapse: collapse;
+  width: 90.1vw;
+  overflow: hidden;
+  border: 10px solid transparent;
+  transition: 0.4s ease;
+  moz-box-shadow: inset -8px -8px 8px 0 rgba(174, 174, 192, 0.25),
+    inset 8px 8px 8px 0 #000, -8px -8px 24px 0 #000,
+    8px 8px 24px 0 rgba(174, 174, 192, 0.4);
+  webkit-box-shadow: inset -8px -8px 8px 0 rgba(174, 174, 192, 0.25),
+    inset 8px 8px 8px 0 #000, -8px -8px 24px 0 #000,
+    8px 8px 24px 0 rgba(174, 174, 192, 0.4);
+  box-shadow: inset -8px -8px 8px 0 rgba(174, 174, 192, 0.25),
+    inset 8px 8px 8px 0 #000, -8px -8px 24px 0 #000,
+    8px 8px 24px 0 rgba(174, 174, 192, 0.4);
+}
+
+
+td {
+  letter-spacing: 2px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.75rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #333;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 1px;
+}
+#mon,
+#tue,
+#wed,
+#thu,
+#fri,
+#sat {
+  font-weight: 900;
+  font-family: poppins;
+  color: orange !important;
+  background-color: #000;
+  text-shadow: none;
+  -webkit-text-fill-color: 0;
+  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 1;
+}
